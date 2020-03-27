@@ -1,10 +1,9 @@
 package me.sebbaindustries.worldgenerator;
 
-import com.aparapi.Kernel;
-import com.aparapi.Range;
 import me.sebbaindustries.worldgenerator.generator.NewChunkGenerator;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.plugin.java.JavaPlugin;
+
 
 public class Core extends JavaPlugin {
 
@@ -21,6 +20,7 @@ public class Core extends JavaPlugin {
     @Override
     public void onEnable() {
         super.onEnable();
+        //Bukkit.getConsoleSender().sendMessage(GpuCompute.myMethod().toString());
     }
 
     @Override
